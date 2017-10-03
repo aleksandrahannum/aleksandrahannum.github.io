@@ -10,32 +10,35 @@
     <form action="https://formspree.io/owojcick@gmail.com" method="POST">
         <label for="imie">Imię</label><br>
         <input type="text" name="name" id="imie"><br>
+        
         <label for="nazwisko">Nazwisko</label><br>
         <input type="text" name="surname" id="nazwisko"><br>
+        
         <label for="email">Email</label><br>
         <input type="email" name="_replyto" id="email"><br>
+        
         <label for="telefon">Telefon</label><br>
         <input type="number" name="phone-number" id="telefon"><br>
+        
         <label for="city">Miasto</label><br>
         <select name="city" id="city">
           <option value="Warszawa">Warszawa</option>
           <option value="Krakow">Krakow</option>
           <option value="Gdańsk">Gdańsk</option>
         </select><br>
+        
         <label for="gender">Płeć</label><br>
-        <form id="gender">
-            <input type="radio" name="gender" value="male"> Mężczyzna<br>
-            <input type="radio" name="gender" value="female"> Kobieta<br>
-            <input type="radio" name="gender" value="other"> Inne
-        </form>
-        <label for="dane">Zgoda na przetwarzanie danych osobowych</label>
-        <form id="dane">
-            <input type="checkbox" name="zgoda" value="dane"> Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922). 
-            
-        </form><br>
+        <input type="radio" name="gender" value="male" id="gender"> Mężczyzna<br>
+        <input type="radio" name="gender" value="female"> Kobieta<br>
+
+        <label for="dane">Zgoda na przetwarzanie danych osobowych</label><br>
+        <input type="checkbox" name="zgoda" value="dane" id="dane"> Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).<br>
+        
         <label for="message">Wiadomość</label><br>
-        <textarea name="comment" form="usrform" id="message">Enter text here...</textarea><br>
-        <input type="submit" value="Send"><br>
+        <textarea name="comment" id="message">Enter text here...</textarea><br>
+        
+        
+        <input type="submit" value="Wyślij"><br>
     </form>
 </body>
 
