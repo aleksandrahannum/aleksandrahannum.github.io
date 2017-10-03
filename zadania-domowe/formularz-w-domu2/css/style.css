@@ -1,3 +1,8 @@
+
+body {
+    font-family: monospace;
+}
+
 #title {
     font-size: 25px;
     color: navy;
@@ -9,4 +14,21 @@
     color:lavender;
     font-style: italic;
     margin-top: 5px;
+}
+
+#main-section {
+    width: 600px;
+    height: 100%;
+}
+input {
+    width: 200px;
+    margin: 5px;
+}
+
+select {
+   width: 150px; 
+}
+
+#button-submit {
+    width: 50px;
 }

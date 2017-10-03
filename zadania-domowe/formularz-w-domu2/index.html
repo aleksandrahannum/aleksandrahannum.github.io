@@ -12,9 +12,10 @@
     <h1 id="title">A Simple Form</h1>
     <h2 id="form-fundamentals">Form Fundamentals</h2>
     </header>
-    
+    <section id="main-section">
     <form action="https://formspree.io/owojcick@gmail.com" method="POST" autocomplete="on">
-        <p class="customer-info">Customer Info</p>
+        <fieldset>
+            <legend>Customer Info</legend>
         
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required><br>
@@ -25,9 +26,10 @@
         <label for="email">Email address:</label>
         <input type="email" name="email" id="email" placeholder="Enter your email address" required multiple><br>
     
-        
+        </fieldset>
 
-        <p class="books">Books</p>
+        <fieldset>
+            <legend>Books</legend>
         
         <input list="books">
         <datalist id="books">
@@ -47,9 +49,10 @@
           <option value="four">4</option>
           <option value="five">5</option>
         </select>
-
-        <input type="submit" value="Send">
+        </fieldset>
+        <input type="submit" value="Submit" id="button-submit">
     </form>
+    </section>
 </body>
 
 </html>
