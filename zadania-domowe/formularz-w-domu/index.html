@@ -8,15 +8,27 @@
 
 <body>
     <form action="https://formspree.io/owojcick@gmail.com" method="POST">
-        <label for="imie">Imię</label> <br />
-        <input type="text" name="name" id="imie">
-        <label for="nazwisko">Nazwisko</label><br />
-        <input type="text" name="surname" id="nazwisko">
-        <label for="email">Email</label><br />
-        <input type="email" name="_replyto" id="email">
-        <label for="telefon">Telefon</label><br />
-        <input type="number" name="phone-number" id="telefon">
-        <input type="submit" value="Send">
+        <label for="imie">Imię</label><br>
+        <input type="text" name="name" id="imie"><br>
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" name="surname" id="nazwisko"><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="_replyto" id="email"><br>
+        <label for="telefon">Telefon</label><br>
+        <input type="number" name="phone-number" id="telefon"><br>
+        <label for="city">Miasto</label><br>
+        <select name="city" id="city">
+          <option value="Warszawa">Warszawa</option>
+          <option value="Krakow">Krakow</option>
+          <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+        <label for="gender">Płeć</label><br>
+        <form id="gender">
+            <input type="radio" name="gender" value="male" > Mężczyzna<br>
+            <input type="radio" name="gender" value="female"> Kobieta<br>
+            <input type="radio" name="gender" value="other"> Inne
+        </form>
+        <input type="submit" value="Send"><br>
     </form>
 </body>
 
