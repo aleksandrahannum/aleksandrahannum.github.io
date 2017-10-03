@@ -9,20 +9,30 @@
 <body>
     <h1>A Simple Form</h1>
     <h2>Form Fundamentals</h2>
-    <form action="https://formspree.io/owojcick@gmail.com" method="POST">
+    <form action="https://formspree.io/owojcick@gmail.com" method="POST" autocomplete="on">
         <p class="customer-info">Customer Info</p>
            <label for="name">Name:</label>
-            <input type="text" name="name" id="name"><br>
+            <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required><br>
             
             <label for="telephone">Telephone:</label>
-            <input type="number" name="_replyto" id="telephone"><br>
+            <input type="tel" name="_replyto" id="telephone" placeholder="Pattem: 1-234-567-8910" pattern="([0-9]{1}(-[0-9]{3})(-[0-9]{3})(-[0-9]{4}))" required><br>
             
             <label for="email">Email address:</label>
-            <input type="email" name="email" id="email"><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required multiple><br>
             
-            <input type="submit" value="Send">
+           
         
         <p class="books">Books</p>
+        <select name="books">
+          <option value="romans">Romans</option>
+          <option value="jail">Jail</option>
+          <option value="custom">Custom</option>
+          <option value="scientific">Scientific</option>
+          <option value="poem">Poem</option>
+          
+        </select>
+        
+         <input type="submit" value="Send">
     </form>
 </body>
 
