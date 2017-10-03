@@ -1,0 +1,26 @@
+#form {
+    width: 500px;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 300px;
+    background-color: skyblue;
+    padding: 10px;
+    
+    
+    
+}
+
+input {
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+label {
+    margin-top: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}

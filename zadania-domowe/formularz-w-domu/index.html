@@ -4,42 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz zgłoszeniowy</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+   <div id="form">
+   <h1>Formularz zgłoszeniowy</h1>
     <form action="https://formspree.io/owojcick@gmail.com" method="POST">
         <label for="imie">Imię</label><br>
-        <input type="text" name="name" id="imie"><br>
+        <input type="text" name="name" id="imie"><br><br>
         
         <label for="nazwisko">Nazwisko</label><br>
-        <input type="text" name="surname" id="nazwisko"><br>
+        <input type="text" name="surname" id="nazwisko"><br><br>
         
         <label for="email">Email</label><br>
-        <input type="email" name="_replyto" id="email"><br>
+        <input type="email" name="_replyto" id="email"><br><br>
         
         <label for="telefon">Telefon</label><br>
-        <input type="number" name="phone-number" id="telefon"><br>
+        <input type="number" name="phone-number" id="telefon"><br><br>
         
         <label for="city">Miasto</label><br>
         <select name="city" id="city">
           <option value="Warszawa">Warszawa</option>
           <option value="Krakow">Krakow</option>
           <option value="Gdańsk">Gdańsk</option>
-        </select><br>
+        </select><br><br>
         
         <label for="gender">Płeć</label><br>
         <input type="radio" name="gender" value="male" id="gender"> Mężczyzna<br>
-        <input type="radio" name="gender" value="female"> Kobieta<br>
+        <input type="radio" name="gender" value="female"> Kobieta<br><br>
 
         <label for="dane">Zgoda na przetwarzanie danych osobowych</label><br>
-        <input type="checkbox" name="zgoda" value="dane" id="dane"> Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).<br>
+        <input type="checkbox" name="zgoda" value="dane" id="dane"> Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).<br><br>
         
         <label for="message">Wiadomość</label><br>
-        <textarea name="comment" id="message">Enter text here...</textarea><br>
+        <textarea name="comment" id="message">Enter text here...</textarea><br><br>
         
         
         <input type="submit" value="Send"><br>
     </form>
+    </div>
 </body>
 
 </html>
