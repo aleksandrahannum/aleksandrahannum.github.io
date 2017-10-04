@@ -1,5 +1,15 @@
-.lake {
-    margin-left: 200px;
-    margin-top: 40px;
+
+.lakeee {
+    width: 660px;
+    height: 355px;
+    border: 5px solid pink;
+    text-align: center;
+    padding-top: 5px;
     
+}
+
+.lakeee:hover {
+    border: 5px solid black;
+    width: 660px;
+    height: 355px;
 }
