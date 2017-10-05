@@ -1,17 +1,36 @@
-
-.lakeee {
-    width: 660px;
-    height: 355px;
-    border: 5px solid white;
-    text-align: center;
-    padding-top: 5px;
+.lake {
+    margin-left: 50px;
+    width: 650px;
     
 }
-
-.lakeee:hover {
-    border: 5px solid black;
+.overlay {
     width: 660px;
-    height: 355px;
-    transition: border 5s;
+    height: 345px;
+    text-align: center;
+    position: relative;
+    
+   
+}
+
+.overlay .link {
+    position: absolute;
+    display: block;
+   
+    width: 660px;
+    height: 60px;
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding-bottom: 30px;
+    left:0px;
+    top: 130px;
+    opacity: 0;
+    transition: opacity 2s;
+   
+}
+
+.overlay:hover .link {
+    opacity: 0.8;
 }
 
