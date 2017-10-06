@@ -1,4 +1,4 @@
-main {
+.container {
     background-color: #98fb98;
     position: relative;
     width: 1092px;
@@ -14,16 +14,20 @@ main {
 #product-4 {
     left: 850px;
     top: 200px;
+    background-image: url(img/product-4.jpg);
     
 }
 #product-3 {
     left: 550px;
     top: 200px;
+    background-image: url(img/product-3.jpg);
 }
 #product-2 {
     left: 250px;
     top: 200px;
+    background-image: url(img/product-2.jpg);
 }
 #product-1 {
     top:200px;
+    background-image:url(img/product-1.jpg);
 }
