@@ -1,33 +1,35 @@
 .container {
     background-color: #98fb98;
+  
     position: relative;
     width: 1092px;
     height: 100%;
 }
 
-.product {
+div.product {
     position: absolute;
-    width: 200px;
+    background-size: cover;
+    width: 180px;
     height: 150px;
     
 }
 #product-4 {
-    left: 850px;
+    left: 830px;
     top: 200px;
-    background-image: url(img/product-4.jpg);
+    background-image: url(img/product-4.jpg)
     
 }
 #product-3 {
-    left: 550px;
+    left: 530px;
     top: 200px;
     background-image: url(img/product-3.jpg);
 }
 #product-2 {
-    left: 250px;
+    left: 230px;
     top: 200px;
     background-image: url(img/product-2.jpg);
 }
 #product-1 {
     top:200px;
-    background-image:url(img/product-1.jpg);
+    background-image: url(img/product-1.jpg);
 }
