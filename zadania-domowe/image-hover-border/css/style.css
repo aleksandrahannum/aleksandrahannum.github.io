@@ -1,33 +1,34 @@
 .lake {
     margin-left: 50px;
     width: 650px;
-    
+
 }
+
 .overlay {
     width: 660px;
     height: 345px;
     text-align: center;
     position: relative;
-    
-   
+
+
 }
 
 .overlay .link {
     position: absolute;
     display: block;
-   
+
     width: 660px;
-    height: 60px;
+    height: 70px;
     background-color: #111;
     color: white;
     text-decoration: none;
-    font-size: 40px;
-    padding-bottom: 30px;
-    left:0px;
-    top: 130px;
+    font-size: 30px;
+
+    left: 0px;
+    top: 150px;
     opacity: 0;
     transition: opacity 2s ease-in-out;
-   
+
 }
 
 .overlay:hover .link {
