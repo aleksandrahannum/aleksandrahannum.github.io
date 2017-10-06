@@ -1,0 +1,29 @@
+main {
+    background-color: #98fb98;
+    position: relative;
+    width: 1092px;
+    height: 100%;
+}
+
+.product {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    
+}
+#product-4 {
+    left: 850px;
+    top: 200px;
+    
+}
+#product-3 {
+    left: 550px;
+    top: 200px;
+}
+#product-2 {
+    left: 250px;
+    top: 200px;
+}
+#product-1 {
+    top:200px;
+}
