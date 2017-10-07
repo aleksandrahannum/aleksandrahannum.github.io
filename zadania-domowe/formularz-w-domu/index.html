@@ -11,39 +11,40 @@
    <div id="form">
    <h1>Formularz zgłoszeniowy</h1>
     <form action="https://formspree.io/owojcick@gmail.com" method="POST">
-        <label for="imie">Imię</label><br>
-        <input type="text" name="name" id="imie"><br><br>
+        <label for="imie">Imię</label>
+        <input type="text" name="name" id="imie">
         
-        <label for="nazwisko">Nazwisko</label><br>
-        <input type="text" name="surname" id="nazwisko"><br><br>
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" name="surname" id="nazwisko">
         
-        <label for="email">Email</label><br>
-        <input type="email" name="_replyto" id="email"><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="_replyto" id="email">
         
-        <label for="telefon">Telefon</label><br>
-        <input type="number" name="phone-number" id="telefon"><br><br>
+        <label for="telefon">Telefon</label>
+        <input type="number" name="phone-number" id="telefon">
         
-        <label for="city">Miasto</label><br>
+        <label for="city">Miasto</label>
         <select name="city" id="city">
           <option value="Warszawa">Warszawa</option>
           <option value="Krakow">Krakow</option>
           <option value="Gdańsk">Gdańsk</option>
-        </select><br><br>
+        </select>
         <fieldset>
             <legend>Wybierz płeć:</legend>
             
-        <label for="gender-male">Mężczyzna</label>
-        <input type="radio" name="gender" value="male" id="gender-male"><br>
+        <label for="gender-male"><input type="radio" name="gender" value="male" id="gender-male">Mężczyzna</label>
         
-        <label for="gender-female">Kobieta</label>
-        <input type="radio" name="gender" value="female" id="gender-female"><br>
-        </fieldset><br>
+        
+        <label for="gender-female"><input type="radio" name="gender" value="female" id="gender-female">Kobieta</label>
+        
+        </fieldset>
 
-        <label for="dane">Zgoda na przetwarzanie danych osobowych</label><br>
-        <input type="checkbox" name="zgoda" value="dane" id="dane">"Wyrażam zgodę na przetwarzanie danych osobowych"<br><br>
         
-        <label for="message">Wiadomość</label><br>
+        
+        <label for="message">Wiadomość</label>
         <textarea name="comment" id="message">Enter text here...</textarea><br><br>
+        
+        <input type="checkbox" name="zgoda" value="dane" id="dane">"Wyrażam zgodę na przetwarzanie danych osobowych"<br><br>
         
         
         <input type="submit" value="Send"><br>
