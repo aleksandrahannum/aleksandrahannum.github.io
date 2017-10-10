@@ -53,7 +53,7 @@
 .mask:hover {
     display: inline-block;
     opacity: 0.6;
-    background-color: coral;
+    background-color: #ff6f00;
     width: 280px;
     height: 290px;
 }
