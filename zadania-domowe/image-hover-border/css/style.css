@@ -1,29 +1,25 @@
 .lake {
     margin-left: 50px;
-    width: 650px;
-
+    width: 660px;
+    transition: all 5s ease-in-out;
 }
 
 .overlay {
     width: 660px;
-    height: 345px;
+    height: 350px;
     text-align: center;
     position: relative;
-
-
 }
 
 .overlay .link {
     position: absolute;
     display: block;
-
     width: 660px;
-    height: 70px;
+    height: 50px;
     background-color: #111;
     color: white;
     text-decoration: none;
     font-size: 30px;
-
     left: 0px;
     top: 150px;
     opacity: 0;
@@ -31,7 +27,19 @@
 
 }
 
+ p {
+    display: inline;
+    width: 100%;
+    line-height: 50px;
+}
+
 .overlay:hover .link {
     opacity: 0.8;
 }
 
+.lake:hover {
+    content: '';
+    width: 660px;
+   
+    border: 1px solid black;
+}
