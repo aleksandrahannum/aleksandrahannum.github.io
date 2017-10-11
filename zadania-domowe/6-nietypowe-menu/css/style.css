@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    height: 70px;
+    background-color: blue;
+    color: white;
+  
+}
+
+.list_item {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 70px;
+    color: white;
+}
+.list_item a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+#triangle-topleft {
+	width: 0;
+	height: 0;
+	border-top: 100px solid blue;
+	border-right: 50vw solid transparent;
+}
+
+#triangle-topright {
+	width: 0;
+	height: 0;
+	border-top: 100px solid blue;
+	border-left: 50vw solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+
+}
