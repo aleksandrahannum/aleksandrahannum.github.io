@@ -39,6 +39,7 @@ li:nth-child(-n+3) {
 h1 {
     width: 100%;
     text-align: center;
+    
 }
 #triangle-topleft {
 	width: 0;
