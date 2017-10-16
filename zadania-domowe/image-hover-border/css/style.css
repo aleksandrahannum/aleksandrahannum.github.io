@@ -26,6 +26,18 @@
     transition: opacity 2s ease-in-out;
 
 }
+.lake::before {
+    content: '';
+    width: 675px;
+    height: 0;
+    border-top: 1px solid black;
+}
+.lake::after {
+    content: '';
+    width: 665px;
+    height: 0;
+    border-bottom: 1px solid black;
+}
 
  p {
     display: inline;
