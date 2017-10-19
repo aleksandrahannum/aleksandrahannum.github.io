@@ -1,0 +1,44 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100vw;
+    height: 1000px;
+}
+
+.counts {
+position: absolute;
+top: 40%;
+left: 40%;
+width: 200px;
+height: 200px;
+transition: 1s;
+
+}
+
+.counts::after {
+
+
+width: 200px;
+height: 200px;
+font-size: 100px;
+content: '10 9 8 7 6 5 4 3 2 1 0';
+animation: count 11s linear infinite;
+
+}
+
+@keyframes count {
+  0% { content: "10"; }
+  10% { content: "9"; }
+  20% { content: "8"; }
+  30% { content: "7"; }
+  40% { content: "6"; }
+  50% { content: "5"; }
+  60% { content: "4"; }
+  70% { content: "3"; }
+  80% { content: "2"; }
+  90% { content: "1"; }
+  100% { content: "0"; }
+ 
+}
+
