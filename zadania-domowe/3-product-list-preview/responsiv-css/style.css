@@ -3,26 +3,27 @@
    
    
     
+    
     #product-1 {
-    width: 50vw;
+    width: 48vw;
     display: inline-block;
     
     }
     
       #product-2 {
-    width: 100vw;
+    width: 48vw;
     display: inline-block;
     
     
     
     }
      #product-3 {
-    width: 50vw;
+    width: 48vw;
     display: inline-block;
     }
     
       #product-4 {
-    width: 50vw;
+    width: 48vw;
     display: inline-block;
     }
 }
