@@ -28,6 +28,27 @@
         display: inline-block;
 
     }
+    .mask {
+    width: 100%;
+    height: 290px;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 500%;
+    position: absolute;
+    transition: all 1s ease; 
+   
+   
+}
+
+.mask:hover  {
+    display: inline-block;
+    opacity: 1;
+    background-color: rgba(255, 102, 0, 0.6);
+    width: 100%;
+    height: 290px;
+}
+
+
 }
 
 @media all and (max-width: 480px) {
@@ -66,5 +87,26 @@
         margin-left: 1vw;
 
     }
+    .mask {
+    width: 100%;
+    height: 290px;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 500%;
+    position: absolute;
+    transition: all 1s ease; 
+   
+   
+}
+
+.mask:hover  {
+    display: inline-block;
+    opacity: 1;
+    background-color: rgba(255, 102, 0, 0.6);
+    width: 100%;
+    height: 290px;
+}
+
+
 
 }
