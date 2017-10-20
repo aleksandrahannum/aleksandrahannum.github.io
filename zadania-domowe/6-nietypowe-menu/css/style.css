@@ -7,9 +7,14 @@ body {
 nav {
     width: 100vw;
     height: 70px;
-    background-color: blue;
+   
+    z-index: 1;
     
   
+}
+
+ul {
+    z-index: 1;
 }
 
 .list_item {
@@ -17,11 +22,13 @@ nav {
     list-style-type: none;
     line-height: 70px;
     color: white;
+   
 }
 .list_item a {
     color: white;
     list-style-type: none;
     text-decoration: none;
+   
 }
 li:nth-last-child(-n+3) {
     float: right;
@@ -44,17 +51,19 @@ h1 {
 #triangle-topleft {
 	width: 0;
 	height: 0;
-	border-top: 50px solid blue;
+	border-top: 100px solid blue;
 	border-right: 100vw solid transparent;
+    position: absolute;
+    top: 0
 }
 
 #triangle-topright {
 	width: 0;
 	height: 0;
-	border-top: 50px solid blue;
+	border-top: 100px solid blue;
 	border-left: 100vw solid transparent;
     position: absolute;
 
-    top: 15%;
+    top: 0%;
 
 }
