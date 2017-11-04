@@ -1,3 +1,5 @@
+'use strict'
 $(function() {
-    console.log('dziala');
+   console.log('dziala'); 
 })
+    
