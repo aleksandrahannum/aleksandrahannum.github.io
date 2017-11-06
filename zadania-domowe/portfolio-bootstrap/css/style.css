@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image:linear-gradient(rgba(70, 60, 67, 0.4), rgba(70, 60, 67, 0.5)), url(../img/pictures_on_the_wall.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+#main-nav a {
+    margin-left: 20%;
+    font-family: 'Monserrat';
+    color: white;
+   
+}
+
+.navbar-item {
+    margin-right: 10px;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+#header-section h2 {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    color: white;
+    
+}
+#header-section h1 {
+    text-align: center;
+    width: 100%;
+    transform: translateY(50%);
+    position: absolute;
+    top: 60%;
+    color: white;
+    
+}
+#main-nav .navbar-item a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#main-nav.scroll {
+    background-color: #0ed8d6;
+}
+
+#main-nav.scroll .navbar-item a:hover {
+    color: #777;
+    text-decoration: none;
+    
+}
+
+#header-section .btn-info {
+    position: absolute;
+    left: 45%;
+    top: 80%;
+}
+
+#header-section .btn-info:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+}
+
+#service-section .col-md-12 h2 {
+    margin-top: 50px;
+    font-family: 'Montserrat';
+}
+#service-section .col-md-12 p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+}
+
+#portfolio-section {
+    margin-top: 50px;
+    background-color: gainsboro;
+    padding-top: 50px;
+}
+
+/*
+#portfolio-section img {
+    height: 300px;
+    width: 300px;
+}
+*/
+
+/*
+#portfolio-section figure {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+   
+}
+*/
+
+#service-section .fa {
+    font-size: 2.8em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    color: white;
+    background-color: #0ed8d6;
+    transition: all .5s;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#service-section .fa:hover {
+    color: #0ed8d6;
+    background-color: white;
+    transform: rotate(360deg);
+}
+
+#portfolio-section .portfolio-item {
+    background-color: white;
+}
+
+#portfolio-section .portfolio-image {
+    overflow: hidden;
+}
+
+#portfolio-section .portfolio-image .portfolio-image-background {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all .3s;
+    
+}
+#portfolio-section .portfolio-item .portfolio-image-mask {
+    background-color: rgba(14, 216, 2014, 0.85);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-section .portfolio-item .portfolio-image-background:hover {
+    transform: scale(1.5);
+}
+
+
+#portfolio-section .portfolio-item .portfolio-image-background:hover .portfolio-image-mask {
+   opacity: 1; 
+} 
+
+#portfolio-section .portfolio-item figcaption {
+    padding: 15px;
+}
+
+#portfolio-image-background-1 {
+    background-image: url(../img/chestnut_on_bracket.jpg);
+}
+#portfolio-image-background-2 {
+    background-image: url(../img/box_of_cookies.jpg);
+}
+#portfolio-image-background-3 {
+    background-image: url(../img/chaotic_paint.jpg);
+}
+#portfolio-image-background-4 {
+    background-image: url(../img/child_with_blue_paint.jpg);
+}
+#portfolio-image-background-5 {
+    background-image: url(../img/house_with_blue_doors.jpg);
+}
+#portfolio-image-background-6 {
+    background-image: url(../img/typing_on_laptop.jpg);
+}
+
+#team-section .col-md-12 h2{
+    margin-top: 50px;
+    font-family: 'Montserrat';
+}
+
+#team-section .col-md-12 p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+}
+
+.img-circle {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.social-link {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #222;
+    border: 1px solid #222;
+    border-radius: 50%;
+    font-size: 1.8em;
+    
+    color:#fff;
+    transition: all .3s;
+    margin: 5px;
+    display: inline-block;
+    
+}
+
+.social-link:hover {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    color: white;
+}
+
+#contact .col-md-12 h2{
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+#contact .col-md-12 p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    color: white;
+}
+
+#contact {
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/world-map.jpg');
+}
+
+
+#contact .contact-form .contact-form-column {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#contact input,
+#contact textarea {
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+#contact input:not([type='submit']),
+#contact textarea {
+   border: 0px solid;
+}
+
+#contact textarea {
+    height: 100%;
+}
+
+#contact input[type='submit'] {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    color: #fff;
+    transition: all .3s;
+    margin-top: 30px;
+    cursor: pointer;
+        
+}
+
+#contact input[type='submit']:hover {
+    background-color: #fff;
+    border: 1px solid #0ed8d6;
+    color: #0ed8d6;
+    
+}
+
+#main-footer {
+    padding: 10px 0;
+}
+
+#main-footer .copyright,
+#main-footer .footer-nav {
+    line-height: 50px;
+}
+
+#main-footer .footer-nav .footer-nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main-footer .footer-nav .footer-nav-item a {
+    color:#777;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#main-footer .footer-nav . footer-nav-item a:hover {
+    color:  #0ed8d6;
+}
