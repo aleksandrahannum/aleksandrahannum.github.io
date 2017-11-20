@@ -3,6 +3,7 @@
   
 }
 
+
 #main-nav #navbarSupportedContent .navbar-nav .navbar-item a {
    color: #1ac056;
    text-decoration: none;
@@ -185,4 +186,9 @@ section {
     color: #213b50;
     border: 1px solid #213b50;
     background-color: #fff;
+}
+
+footer {
+    background-color: #142634;
+    color: #fff;
 }
