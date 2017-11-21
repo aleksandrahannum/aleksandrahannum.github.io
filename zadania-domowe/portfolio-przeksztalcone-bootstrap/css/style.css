@@ -192,3 +192,13 @@ footer {
     background-color: #142634;
     color: #fff;
 }
+
+.scroll {
+    background-color: #0ed8d6;
+}
+
+.scroll .navbar-item a:hover {
+    color: #777;
+    text-decoration: none;
+    
+}
