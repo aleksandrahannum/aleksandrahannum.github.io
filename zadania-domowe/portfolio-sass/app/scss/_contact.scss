@@ -1,0 +1,55 @@
+#contact-section {
+    background-color: #213b50;
+    color: $white-color;
+    overflow: hidden; 
+    
+    form {
+        padding-top: 50px;
+        
+        input {
+            @include contact;
+            
+        }
+        textarea {
+            @include contact;
+            
+        }
+        button {
+            background-color: $main-color;
+            color: $white-color;
+            width: auto;
+            text-transform: uppercase;
+            font-weight: 400;
+            padding: 10px 20px;
+            border: 1px $main-color solid;
+            border-radius: 0px;
+        }
+        button:hover {
+            background-color: $white-color;
+            color: $main-color;
+        }
+    } 
+    adress {
+        a {
+            color: $main-color;
+        }
+    }
+    .contact-social-icons {
+        a {
+            display: inline-block;
+            color: $white-color;
+            height: 38px;
+            width: 38px;
+            text-align: center;
+            line-height: 38px;
+            border: 1px solid #fff;
+            margin-right: 30px;
+            font-size: 22px;
+        }
+        a:hover {
+            color: #213b50;
+            border: 1px solid #213b50;
+            background-color: $white-color;
+        }
+    }
+}

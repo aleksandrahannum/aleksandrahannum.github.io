@@ -1,0 +1,15 @@
+@mixin span {
+    color: #1ac056;
+    font-weight: 400;
+};
+
+@mixin section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@mixin contact {
+    background-color: #426684;
+    border: solid 1px #426684;
+    border-radius: 0px;
+}
