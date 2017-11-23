@@ -40,9 +40,12 @@ section {
 #skills-section .row {
   margin-top: 20px; }
 
-#skills-section .skills-icon-item {
-  display: inline-block;
-  margin-left: 40px; }
+#skills-section figure {
+  width: 20%;
+  display: inline-block; }
+  #skills-section figure .skills-icon-item {
+    display: inline-block;
+    margin-left: 40px; }
 
 #portfolio-section #portfolio-item-1 {
   background-image: url(../img/portfolio1.jpg);
