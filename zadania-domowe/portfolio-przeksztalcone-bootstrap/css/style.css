@@ -108,10 +108,10 @@ section {
 
 #portfolio-section .portfolio-item .item-mask .item-content {
     border: 1px solid #fff;
-    margin: 10px;
+    margin: 0px;
     height: 330px;
     position: relative;
-    top: 5px;
+    top: 0px;
 }
 #portfolio-section .portfolio-item .item-mask .item-content .item-content-inner {
     color: #fff;
